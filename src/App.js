@@ -1,9 +1,10 @@
+import UserList from "./components/features/UserList/UserList";
 
- import ComponentA from './components/ContextAPI/withoutcontextapi/ComponentA'
+ 
 function App() {
   return (
     <div className="App">
-      <ComponentA/>
+     <UserList/>
     </div>
   );
 }
